@@ -1,4 +1,5 @@
--#!/bin/sh     
+-#!/bin/sh
+ssh ec2-user@127.0.0.1 <<EOF     
  cd /jenkins-test 
  git pull      
  npm install --production      
