@@ -1,8 +1,0 @@
--#!/bin/sh
- su ec2-user     
- cd /jenkins-test 
- git pull      
- npm install --production      
- node index.js
- exit      
-EOF
