@@ -5,7 +5,7 @@ var path = require('path');
 
 app.get('/hello', (req, res) => {
     console.log('Hello..!!');
-    res.send('Hello..6!!');
+    res.send('Hello..7 Finally this should be working fine!!');
 });
 
 
