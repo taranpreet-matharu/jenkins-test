@@ -1,0 +1,7 @@
+-#!/bin/sh     
+ cd /jenkins-test 
+ git pull      
+ npm install --production      
+ node index.js
+ exit      
+EOF
