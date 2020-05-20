@@ -5,7 +5,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                sh 'git pull origin master'
                 sh 'npm install'
             }
         }
@@ -17,7 +16,6 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
-                sh 'pm2 restart jenkins-test'
             }
         }
     }
