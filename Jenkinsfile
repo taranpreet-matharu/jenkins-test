@@ -15,7 +15,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
-                sh 'pm2 restart jenkins-test'
+                sh 'pm2 restart jenkins-test-workspace'
             }
         }
     }
